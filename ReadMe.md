@@ -31,7 +31,7 @@ This RoadMap is Created by [Alikhll (Ali Khalili)](https://github.com/Alikhll)  
 1. 先决条件
 
    - [Go](https://golangbot.com/)
-   - [Dep](https://github.com/golang/dep)
+   - [Go Modules](https://blog.golang.org/using-go-modules)
    - [SQL](https://www.w3schools.com/sql/default.asp)
 
 2. 通用开发技能
@@ -62,6 +62,7 @@ This RoadMap is Created by [Alikhll (Ali Khalili)](https://github.com/Alikhll)  
       2. [PostgreSQL](https://www.postgresql.org/)
       3. [MariaDB](https://mariadb.org/)
       4. [MySQL](https://www.mysql.com/)
+      5. [CockroachDB](https://www.cockroachlabs.com/)
    2. 云数据库
       - [CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db)
       - [DynamoDB](https://aws.amazon.com/dynamodb/)
@@ -105,10 +106,12 @@ This RoadMap is Created by [Alikhll (Ali Khalili)](https://github.com/Alikhll)  
 10. API 客户端
 
     1. REST
-       - [Gentelman](https://github.com/h2non/gentleman)
+       - [Gentleman](https://github.com/h2non/gentleman)
        - [GRequests](https://github.com/kennethreitz/grequests)
        - [heimdall](https://github.com/heimdal/heimdal)
     2. [GraphQL](https://graphql.org/)
+       - [gqlgen](https://github.com/99designs/gqlgen)
+       - [graphql-go](https://github.com/graph-gophers/graphql-go)
 
 11. 最好知道
 
@@ -140,8 +143,8 @@ This RoadMap is Created by [Alikhll (Ali Khalili)](https://github.com/Alikhll)  
 14. 微服务
 
     1. 消息代理
-       - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html)
-       - [Apache Kafka](https://www.npmjs.com/package/kafka-node)
+       - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-go.html)
+       - [Apache Kafka](https://kafka.apache.org/)
        - [ActiveMQ](https://github.com/apache/activemq)
        - [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
     2. 消息总线
@@ -149,12 +152,14 @@ This RoadMap is Created by [Alikhll (Ali Khalili)](https://github.com/Alikhll)  
     3. 框架
          - [GoKit](https://github.com/go-kit/kit)
          - [Micro](https://github.com/micro/go-micro)
+         - [rpcx](https://github.com/smallnest/rpcx)
     4. RPC
          - [Protocol Buffers](https://github.com/protocolbuffers/protobuf)
          - [gRPC-Go](https://github.com/grpc/grpc-go)
          - [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway)
 
 15. [Go-模式](https://github.com/tmrts/go-patterns)
+
 
 ## 最后
 
